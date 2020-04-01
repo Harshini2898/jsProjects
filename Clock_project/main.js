@@ -44,36 +44,36 @@ var updateImg = function(){
     var imageId = document.getElementById("image");
     if(isParty == 1){
         textId.innerText = "It's Partyy Timee!";
-        imageId.src = "party.jpg";
+        imageId.src = "images/party.jpg";
         
     }
     else if(hours == wakeupTime){
         textId.innerText = "Wake up Lazyy!!";
-        imageId.src = "baby1.jpg";
+        imageId.src = "images/baby1.jpg";
     }
     else if(hours == lunchTime){
         textId.innerText = "It's Lunch Time Let's Eatt!";
-        imageId.src = "food.jpg";
+        imageId.src = "images/food.jpg";
     }
     else if(hours == dinnerTime){
         textId.innerText = "It's Dinner Time!";
-        imageId.src = "chicken.jpg";
+        imageId.src = "images/chicken.jpg";
     }
     else if(hours == napTime){
         textId.innerText = "It's Sleeping Time!";
-        imageId.src = "sleep.jpg"
+        imageId.src = "images/sleep.jpg"
     }
    else if(hours<=morning){
     textId.innerText = "Good Morning!";
-    imageId.src = "baby3.jpg";
+    imageId.src = "images/baby3.jpg";
    }
    else if(hours<=afternoon){
        textId.innerText="Good Afternoon!";
-       imageId.src = "baby4.jpg";
+       imageId.src = "images/baby4.jpg";
    }
    else{
     textId.innerText = "Good Evening!";
-    imageId.src = "baby5.jpeg";
+    imageId.src = "images/baby5.jpeg";
    }
 
 }
